@@ -9,4 +9,6 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 News: NEWS
-Imports: tidyverse，readxl
+Imports: 
+  tidyverse
+  readxl
