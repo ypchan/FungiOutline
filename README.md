@@ -6,7 +6,12 @@
 library(devtools)
 devtools::install_github("ypchan/FungiOutline")
 ```
-## Get table of fungal taxonomic framework
+## Get the taxonomic framework
 ```
-li)
+data(outline)
+```
+
+## how many phylum
+```
+outlne %>% distinct(Phylum) %>% count()
 ```
