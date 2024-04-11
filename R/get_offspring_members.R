@@ -1,3 +1,12 @@
+#' get_offsprint_member
+#'
+#' @param group_label (character) A string, it can be name of genus, family, order, subclass, class, etc.
+#' @param deepth (integer) A integer  
+#'
+#' @return (character) A table of taxonomic scheme of the corresponding groups
+#' @export
+#'
+#' @examples
 get_offspring_members <- function(group_label, deepth=0) {
     # load outline table
     outline <- read_excel(system.file("data", "outline.xlsx", package = "FungiOutline"))

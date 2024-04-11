@@ -1,3 +1,12 @@
+#' get_parent_lineage
+#'
+#' @param group_label 
+#' @param deepth 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 get_parent_lineage <- function(group_label, deepth=0) {
     # load outline table
     outline <- read_excel(system.file("data", "outline.xlsx", package = "FungiOutline"))
