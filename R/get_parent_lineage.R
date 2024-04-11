@@ -82,10 +82,12 @@ get_parent_lineage <- function(group_label, deepth=0) {
     }
     
     # output
+    cat(lineage_info)
     if (lineage_info) {
         return(lineage_info)
     }
     else {
         warning(paste0("Warning: unknown group label: ",group_label))
+        return("NA")
     }
     }
