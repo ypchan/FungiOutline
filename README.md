@@ -11,7 +11,16 @@ devtools::install_github("ypchan/FungiOutline")
 data(outline)
 ```
 
-## how many phylum
+## Count
 ```
-outlne %>% distinct(Phylum) %>% count()
+# how many phylum
+outline %>% distinct(Phylum) %>% print(n=100)
+
+# how many family
+outline %>% distinct(Current_family) %>% print(n=5000)
+
+# how many genus
+outline %>% distinct(Current_family) %>% print(n=5000)
+
 ```
+
