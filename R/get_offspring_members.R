@@ -9,7 +9,7 @@
 #' @examples
 get_offspring_members <- function(group_label, deepth=0) {
     # load outline table
-    outline <- read_excel(system.file("data", "outline.xlsx", package = "FungiOutline"))
+    data(outline)
     # remove useless white spaces in string
     group_label <- trimws(group_label)
     
