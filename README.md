@@ -13,13 +13,13 @@ data(outline)
 
 ## Count
 ```
-# how many phylum
+# how many phylum, including incertae_sedis
 outline %>% distinct(Phylum) %>% print(n=100)
 
-# how many family
+# how many family, including incertae_sedis
 outline %>% distinct(Current_family) %>% print(n=5000)
 
-# how many genus
+# how many genus, including incertae_sedis
 outline %>% distinct(Current_family) %>% print(n=5000)
 
 ```
