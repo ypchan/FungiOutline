@@ -82,8 +82,7 @@ get_parent_lineage <- function(group_label, deepth=0) {
     }
     
     # output
-    cat(lineage_info)
-    if (lineage_info) {
+    if ( !is.null(lineage_info) ) {
         return(lineage_info)
     }
     else {
