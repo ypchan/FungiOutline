@@ -1,2 +1,6 @@
 import(readxl)
 import(tidyverse)
+
+export(get_offspring_members)
+export(get_outline)
+export(get_parent_lineage)
