@@ -8,6 +8,7 @@ devtools::install_github("ypchan/FungiOutline")
 ```
 ## Get the taxonomic framework
 ```
+library(FungiOutline)
 data(outline)
 ```
 
