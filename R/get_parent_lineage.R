@@ -1,6 +1,6 @@
 get_parent_lineage <- function(group_label, deepth=0) {
     # load outline table
-    outline <- read_excel("data/outline.xlsx")
+    outline <- read_excel(system.file("data", "outline.xlsx", package = "FungiOutline"))
     # remove useless white spaces in string
     group_label <- trimws(group_label)
     
