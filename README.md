@@ -24,4 +24,5 @@ outline %>% distinct(Current_family) %>% print(n=5000)
 outline %>% distinct(Current_family) %>% print(n=5000)
 
 ```
-
+## Corretions
+If you find something wrong, or not consistent the latest taxonomic scheme, please contact yanpengch@qq.com or directly open a new issue under this package.
