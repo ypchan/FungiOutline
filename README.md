@@ -2,7 +2,7 @@
  A R package written by Yanpeng Chen for processing taxonomic framework of Fungi.
 
  The following bar chart displays the changes in the number of subclasses, orders, and families within Sordariomycetes.
- [img/rank_changes.png]
+ ![contents](img/rank_changes.png)
 
 ## Install
 ```
