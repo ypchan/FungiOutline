@@ -1,7 +1,7 @@
 # FungiOutline
  A R package written by Yanpeng Chen for processing taxonomic framework of Fungi.
 
- The following bar chart displays the changes in the number of subclasses, orders, and families within Sordariomycetes.
+ The following bar chart displays the changes in the number of subclasses, orders, families and genus within Sordariomycetes. Some of theme are not well accepted by fungal taxonomist. 
  ![contents](img/rank_changes.png)
 
 ## Install
