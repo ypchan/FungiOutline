@@ -2,7 +2,12 @@
  A R package written by Yanpeng Chen for processing taxonomic framework of Fungi.
 
  The following bar chart displays the changes in the number of subclasses, orders, families and genus within Sordariomycetes. Some of theme are not well accepted by fungal taxonomist. 
- ![contents](img/rank_changes.png)
+ ![Major changes in taxonomic scheme of Sordariomycetes](img/rank_changes.png)
+
+ # Join me
+  ![updates](img/helpinfo.png)
+
+# Usage
 
 ## Install
 ```
@@ -27,8 +32,13 @@ outline %>% distinct(Current_family) %>% print(n=5000)
 outline %>% distinct(Current_family) %>% print(n=5000)
 
 ```
-## Corretions
-If you find something wrong, or not consistent the latest taxonomic scheme, please contact yanpengch@qq.com or directly open a new issue under this package.
+## Annotation lineage information
+```
+# file:  taxa table in XLSX format
+# query_column_name: the column including taxonimic terms such as the name of genus, family, order...
+file <- "2022-studies in mycology-Taxonomy.xlsx"
+add_lineage_to_excel(file,query_column_name = "Genus")
+```
 
 ## Reference
 
