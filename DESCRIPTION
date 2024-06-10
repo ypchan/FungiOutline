@@ -15,3 +15,4 @@ Depends:
     openxlsx,
     foreach,
     doParallel
+RoxygenNote: 7.3.1

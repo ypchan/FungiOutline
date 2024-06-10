@@ -1,5 +1,5 @@
 # Define the function to add lineage information to an Excel file
-add_lineage_to_excel <- function(xlsx_file_path, query_column_name, sheet_name = "Sheet1", out_column_name = "Lineage") {
+add_lineage_to_xlsx <- function(xlsx_file_path, query_column_name, sheet_name = "Sheet1", out_column_name = "Lineage") {
     # Define the columns that contain rank information
     rank_columns <- c("Phylum_current", "Subphylum_current", "Class_current", 
                       "Subclass_current", "Order_current", "Family_current", 

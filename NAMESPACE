@@ -1,8 +1,9 @@
-import(readxl)
+import(openxlsx)
 import(tidyverse)
 import(foreach)
 import(doParallel)
 
+export(add_lineage_to_xlsx)
 export(get_offspring_members)
 export(get_parent_lineage)
-export(add_lineage_to_xlsx)
+
