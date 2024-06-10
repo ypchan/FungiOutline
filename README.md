@@ -9,7 +9,7 @@
 
 # Usage
 
-## Install
+## Install & update
 ```
 library(devtools)
 devtools::install_github("ypchan/FungiOutline")
@@ -37,7 +37,7 @@ outline %>% distinct(Current_family) %>% print(n=5000)
 # file:  taxa table in XLSX format
 # query_column_name: the column including taxonimic terms such as the name of genus, family, order...
 file <- "2022-studies in mycology-Taxonomy.xlsx"
-add_lineage_to_excel(file,query_column_name = "Genus")
+add_lineage_to_xlsx(file,query_column_name = "Genus")
 ```
 
 ## Reference
