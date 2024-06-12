@@ -39,7 +39,11 @@ outline %>% distinct(Current_family) %>% print(n=5000)
 file <- "2022-studies in mycology-Taxonomy.xlsx"
 add_lineage_to_xlsx(file,query_column_name = "Genus")
 ```
+## Updates
+> Hypocreomycetidae	Hypocreales	Pseudodiploösporeaceae	Pseudodiploöspora
+![image](https://github.com/ypchan/FungiOutline/assets/33273919/a23f10d2-3721-407a-931d-1cf1039418a2)
 
+> 
 ## Reference
 
 > 1. Maharachchikumbura S S N, Hyde K D, Jones E B G, et al. Towards a natural classification and backbone tree for Sordariomycetes. Fungal Diversity, 2015, 72(1): 199–301.
